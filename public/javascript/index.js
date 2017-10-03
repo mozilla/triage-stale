@@ -5,7 +5,7 @@ const inactive = "https://bugzilla.mozilla.org/rest/bug?include_fields=id,summar
 const stalled = "https://bugzilla.mozilla.org/rest/bug?include_fields=id,summary,status&f1=delta_ts&f2=flagtypes.name&keywords=stale-bug%2C%20&keywords_type=allwords&o1=lessthan&o2=notsubstring&product=Core&product=Firefox&product=Firefox%20for%20Android&product=Firefox%20for%20iOS&product=Toolkit&resolution=---"
 
 
-var currentCycle = 'Firefox 57';
+var currentCycle = 'Firefox 58';
 
 var reports = [
     {title: "Orphaned P1s (No Assignee)",
